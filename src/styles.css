@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 227, 210);
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+button{
+    background-color: burlywood;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+h {
+    font-size: 2rem;
+}
+
+/* This is for the About & Location*/
+.aboutTab, .locationTab{
+    margin-top: 10px;
+    font-size: 52px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-style: italic;
+    font-weight: 100;
+}

@@ -1,0 +1,39 @@
+#mofongoImage{
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    height: 230px;
+    width: 230px;
+    border-radius: 100%;
+}
+.menuTab{
+    margin-top: 10px;
+    font-size: 52px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-style: italic;
+    font-weight: 100;
+}
+.menuContainer{
+    width: 500px;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+    padding: 2px;
+    border-style: groove;
+    border-radius: 20px;
+    background-color: rgb(139, 121, 121);
+    color: white;
+    text-shadow: 1px 1px black;
+}
+#mainDishesTitleH, #SidesTitleH, #MofongoTitleH, #DessertsTitleH{
+    background-color: rgb(95, 87, 87);
+    border-radius: 15px;
+    padding: 3px;
+}
+.menuLeft, .menuRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
